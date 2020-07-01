@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1591111063 source:c:\users\emreﬁahin\desktop\pl-proje2\proje2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+
+1591955457 source:c:\users\90554\desktop\proje2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+
+1593629946 source:c:\users\emreﬁahin\desktop\proje2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<sys/stat.h>
+	<sys/types.h>
+	<dirent.h>
+	<errno.h>
+

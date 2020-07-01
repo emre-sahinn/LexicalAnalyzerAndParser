@@ -1,0 +1,42 @@
+make <test1/test2>;
+go <deneme3/kontrol2>;
+make <*/deneme1>;
+go <*>;
+ifnot <*>
+{
+	make <emre/sahin/a123>;	
+}
+
+make <deneme/kontrol>;
+if <deneme/kontrol> 
+   {
+go <*>;
+       go <deneme/kontrol>;
+go <*>;
+       make <berna/bircan>;
+
+	if <sahipsiz/kedi> make <sahipli/minikkedi>;
+	if <berna/bircan2> make <sahipli1kedi/minikkedi>;
+
+	if <*/*/*/deneme>
+	{
+    		make <ben/sen>;
+    		go <ben/sen>;
+    		make<biz/siz>;
+	}
+
+	ifnot <*/kedi>
+	{
+    		make <ben2/sen2>;
+    		go <ben2/sen2>;
+    		make<biz2/siz2>;
+	}
+	go <*>;
+	make <o/onlar>;
+}
+if <o/onlar> 
+{
+    make <kim/neden>;
+    go <kim/neden9>;
+    make<nasil/hangisi>;
+}
