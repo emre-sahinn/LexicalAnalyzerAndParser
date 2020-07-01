@@ -1,4 +1,4 @@
-# Lexical Analyzer and Parser for Path_maker Language
+# Lexical Analyzer and Parser for Path_maker Language :gem:
 Path_maker is a basic scripting language for creating directory trees. I used Backus-Naur form and recursive descent method to parse the source code which is given by the user.
 Here is the BNF:<br>
 * ProgramBegin() -> ifStatement() | ifnotStatement() |commandStatement() | NULL<br>
@@ -8,7 +8,7 @@ Here is the BNF:<br>
 * commandStatement() -> "make" | "go" + pathStatement() + ";" + ProgramBegin()<br>
 * blockStatement() -> "{" + ProgramBegin() + "}" + ProgramBegin()<br>
 
-## How it works?
+## How it works? :pencil:
 Firstly, user enters source code name and then algorithm splits the source code to its tokens. After that we write these tokens to the lex file called "code.lex". Then, BNF comes in and recursive descent algorithm takes action. After all of that, if anywhere in the source code has errors, parser informs the user about the exact error(thanks to BNF) and stops, if there are no errors then parsing operation ends and indicates success message to the user.
 Features of Path_maker:<br>
 * "Path" is the only data type. Path constants are relative directory path expressions written in the form: <dir1/dir2/dir3> where dir1, dir2 and dir3 are directory names.
@@ -36,7 +36,7 @@ make, go, if, ifnot
 Symbols: < , > , { , } , / , *
 * Input: Prompt for the source file name. Get the source file name from the user. Assuming the user gave the name x, you should open and read the source file with the extension “.pmk” like x.pmk
   
-##Example
+## Example :book:
 * Sample Path_maker source code
 ```
 make <test1/test2>;
